@@ -1,4 +1,4 @@
-{% set version = "1.4.0" %}
+{% set version = "1.5.0" %}
 
 package:
     name: pyophidia
@@ -6,7 +6,7 @@ package:
 
 source:
     url: https://github.com/OphidiaBigData/PyOphidia/archive/v{{ version}}.tar.gz
-    sha256: b276b11d8e72396f00a95eeec0086df75e6fe6980106eb2fab68d237c665a1f7
+    sha256: 85c5fcebfb158b0045661c815153df182df3607324b66e63e4c904a71f3fc102
 
 build:
     number: 0
