@@ -14,12 +14,15 @@ Summary: PyOphidia is a Python package for interacting with the Ophidia framewor
 Current build status
 ====================
 
-All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/pyophidia-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/pyophidia-feedstock)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/pyophidia-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/pyophidia-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pyophidia/badges/version.svg)](https://anaconda.org/conda-forge/pyophidia)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pyophidia/badges/downloads.svg)](https://anaconda.org/conda-forge/pyophidia)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-pyophidia-green.svg)](https://anaconda.org/conda-forge/pyophidia) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/pyophidia.svg)](https://anaconda.org/conda-forge/pyophidia) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/pyophidia.svg)](https://anaconda.org/conda-forge/pyophidia) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/pyophidia.svg)](https://anaconda.org/conda-forge/pyophidia) |
 
 Installing pyophidia
 ====================
