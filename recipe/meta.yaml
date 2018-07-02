@@ -1,4 +1,4 @@
-{% set version = "1.5.0" %}
+{% set version = "1.6.0" %}
 
 package:
     name: pyophidia
@@ -6,17 +6,18 @@ package:
 
 source:
     url: https://github.com/OphidiaBigData/PyOphidia/archive/v{{ version}}.tar.gz
-    sha256: 85c5fcebfb158b0045661c815153df182df3607324b66e63e4c904a71f3fc102
+    sha256: bd7b675445b398673addbbd4550b5390e5d7ff8cd6f1e138ba974db3faa6017f
 
 build:
     number: 0
     noarch: python
-    script: python setup.py install --single-version-externally-managed --record record.txt
+    script: python -m pip install --no-deps --ignore-installed .
 
 requirements:
     build:
         - python
         - setuptools
+        - pip
     run:
         - python
 
