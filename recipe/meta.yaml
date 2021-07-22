@@ -1,41 +1,41 @@
-{% set version = "1.8.1" %}
+{% set version = "1.9.0" %}
 
 package:
-    name: pyophidia
-    version: "{{ version }}"
+  name: pyophidia
+  version: {{ version }}
 
 source:
-    url: https://github.com/OphidiaBigData/PyOphidia/archive/v{{ version}}.tar.gz
-    sha256: 14a010f49432a65bf1c592f28354a0062a5c3b802f8227cdd2be05d166d3dcce
+  url: https://github.com/OphidiaBigData/PyOphidia/archive/v{{ version }}.tar.gz
+  sha256: ad8f1fdd1f07c540cb41965ac699fb4f48a84c421f76e74810156e1d119cec78
 
 build:
-    number: 0
-    noarch: python
-    script: python -m pip install --no-deps --ignore-installed .
+  number: 0
+  noarch: python
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
-    build:
-        - python
-        - setuptools
-        - pip
-    run:
-        - python
+  host:
+    - python >=3.6
+    - setuptools
+    - pip
+  run:
+    - python >=3.6
 
 test:
-    imports:
-        - PyOphidia
+  imports:
+    - PyOphidia
 
 about:
-    home:  http://github.com/OphidiaBigData/PyOphidia
-    license:  GPL-3.0
-    license_family: GPL
-    license_file: LICENSE
-    summary: PyOphidia is a Python package for interacting with the Ophidia framework.
+  home: http://github.com/OphidiaBigData/PyOphidia
+  license: GPL-3.0-or-later
+  license_family: GPL
+  license_file: LICENSE
+  summary: PyOphidia is a Python package for interacting with the Ophidia framework.
 
 extra:
-    recipe-maintainers:
-        - doutriaux1
-        - eldoo
-        - minomicetto
-        - aledanca
-        - sandrofiore
+  recipe-maintainers:
+    - doutriaux1
+    - eldoo
+    - minomicetto
+    - aledanca
+    - sandrofiore
