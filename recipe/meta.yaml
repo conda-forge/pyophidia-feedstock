@@ -15,11 +15,11 @@ build:
 
 requirements:
   host:
-    - python
+    - python >= 3.6
     - setuptools
     - pip
   run:
-    - python
+    - python >= 3.6
 
 test:
   imports:
@@ -27,7 +27,7 @@ test:
 
 about:
   home: http://github.com/OphidiaBigData/PyOphidia
-  license: GPL-3.0
+  license: GPL-3.0-or-later
   license_family: GPL
   license_file: LICENSE
   summary: PyOphidia is a Python package for interacting with the Ophidia framework.
