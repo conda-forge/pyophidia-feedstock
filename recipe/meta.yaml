@@ -15,11 +15,13 @@ build:
 
 requirements:
   host:
-    - python >=3.6
+    - python >=3.8
     - setuptools
     - pip
   run:
-    - python >=3.6
+    - python >=3.8
+    - numpy
+    - pandas
 
 test:
   imports:
