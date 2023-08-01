@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://github.com/OphidiaBigData/PyOphidia/archive/v{{ version }}.tar.gz
-  sha256: 65b730f264e1c15058156d80ead3d182edd3c3df99b1dba05fb84daa12a5f0f2
+  sha256: f0fc0627aa5814f06dffd5b480ff317d31bd6c6b073ec4529b36a40a568e0e28
 
 build:
   number: 0
