@@ -1,11 +1,11 @@
-About pyophidia
-===============
+About pyophidia-feedstock
+=========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pyophidia-feedstock/blob/main/LICENSE.txt)
 
 Home: http://github.com/OphidiaBigData/PyOphidia
 
 Package license: GPL-3.0-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pyophidia-feedstock/blob/main/LICENSE.txt)
 
 Summary: PyOphidia is a Python package for interacting with the Ophidia framework.
 
