@@ -9,19 +9,21 @@ source:
   sha256: f0fc0627aa5814f06dffd5b480ff317d31bd6c6b073ec4529b36a40a568e0e28
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   host:
-    - python >=3.6
+    - python {{ python_min }}
     - setuptools
     - pip
   run:
-    - python >=3.6
+    - python >={{ python_min }}
 
 test:
+  requires:
+    - python {{ python_min }}
   imports:
     - PyOphidia
 
